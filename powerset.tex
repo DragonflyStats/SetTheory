@@ -203,67 +203,54 @@ contains all three elements \item[$\bullet$] 1+3+3+1=8
 \subsection*{Exercise}
 For the set $Y = \{u,v,w,x\}$ , answer the questions from the
 previous exercise
-\end{document}
 
 
- 
-Power Sets
-Worked Example
-Consider the set Z:  Z = { a,b,c}  
-Q1 How many sets are in the power set of Z?
-Q2 Write out the power set of Z.
-Q3 How many elements are in each element set?
 
-Solutions to Worked Example
-Q1 answer:  There are 3 elements in Z. So there is 23 = 8 element sets contained in the power set.
-Q2 answer:  Write out the power set of Z.
-P(Z) = { {0}, {a}, {b}, {c}, {a,b}, {a,c}, {b,c}, {a,b,c} }
-
-Q3 answer:    One element set is the null set - i.e. containing no elements 
-	 Three element sets have only elements 
-	Three element sets have two elements 
-	One element set contains all three elements 
-	 1+3+3+1=8
-Exercise: For the set Y = {u,v,w,x} , answer the questions from the previous exercise
 
 
 Power Set
 Power set of a set S is the set of all subsets of S including the empty set. The cardinality of a power set of a set S of cardinality n is 2n2n. Power set is denoted as P(S)P(S).
 
-Example −
+Example 
 
-For a set S={a,b,c,d}S={a,b,c,d} let us calculate the subsets −
+For a set $S={a,b,c,d}$ let us calculate the subsets 
 
-Subsets with 0 elements − {∅}{∅} (the empty set)
+\begin{itemize}
+\item Subsets with 0 elements : $\{ \varnothing\}$ (the empty set)
+\item Subsets with 1 element : {a},{b},{c},{d}
+\item Subsets with 2 elements : {a,b},{a,c},{a,d},{b,c},{b,d},{c,d}
+\item Subsets with 3 elements : {a,b,c},{a,b,d},{a,c,d},{b,c,d}
+\item Subsets with 4 elements : {a,b,c,d}
+\end{itemize}
 
-Subsets with 1 element − {a},{b},{c},{d}{a},{b},{c},{d}
-Subsets with 2 elements − {a,b},{a,c},{a,d},{b,c},{b,d},{c,d}{a,b},{a,c},{a,d},{b,c},{b,d},{c,d}
-Subsets with 3 elements − {a,b,c},{a,b,d},{a,c,d},{b,c,d}{a,b,c},{a,b,d},{a,c,d},{b,c,d}
-Subsets with 4 elements − {a,b,c,d}{a,b,c,d}
-Hence, P(S)=P(S)=
-{{∅},{a},{b},{c},{d},{a,b},{a,c},{a,d},{b,c},{b,d},{c,d},{a,b,c},{a,b,d},{a,c,d},{b,c,d},{a,b,c,d}}{{∅},{a},{b},{c},{d},{a,b},{a,c},{a,d},{b,c},{b,d},{c,d},{a,b,c},{a,b,d},{a,c,d},{b,c,d},{a,b,c,d}}
-|P(S)|=24=16|P(S)|=24=16
-Note − The power set of an empty set is also an empty set.
+Hence, \[P(S)=
+{{\varnothing},{a},{b},{c},{d},{a,b},{a,c},{a,d},{b,c},{b,d},{c,d},{a,b,c},{a,b,d},{a,c,d},{b,c,d},{a,b,c,d}}\]
+|P(S)|=24=16
+Note: The power set of an empty set is also an empty set.
 
-|P({∅})|=20=1|P({∅})|=20=1
+$|P({\varnothing})|=2^0=1$
 \subsection{Partitioning of a Set}
-Partition of a set, say S, is a collection of n disjoint subsets, say P1,P2,…PnP1,P2,…Pn that satisfies the following three conditions −
+Partition of a set, say S, is a collection of n disjoint subsets, say $P1,P2 \ldots Pn$  that satisfies the following three conditions :
 
-PiPi does not contain the empty set.
+\begin{enumerate}
+\item $Pi$ does not contain the empty set.
 
-[Pi≠{∅} for all 0<i\leqn][Pi≠{∅} for all 0<i\leqn]
-The union of the subsets must equal the entire original set.
+ $[Pi \neq {\varnothing} for all 0<i\leq n]$
+\item The union of the subsets must equal the entire original set.
 
-[P1∪P2∪⋯∪Pn=S][P1∪P2∪⋯∪Pn=S]
-The intersection of any two distinct sets is empty.
+FIX % $[P1 \cup P2 \cup ⋯∪Pn=S]
+\item The ntersection of any two distinct sets is empty.
 
-[Pa∩Pb={∅}, for a≠b where n≥a,b≥0][Pa∩Pb={∅}, for a≠b where n≥a,b≥0]
-Example
+[$Pa \cap Pb={\varnothing}, for a\neq b where n\geq a,b\geq 0]$
+\end{enumerate}
 
-Let S={a,b,c,d,e,f,g,h}S={a,b,c,d,e,f,g,h}
-One probable partitioning is {a},{b,c,d},{e,f,g,h}{a},{b,c,d},{e,f,g,h}
-Another probable partitioning is {a,b},{c,d},{e,f,g,h}{a,b},{c,d},{e,f,g,h}
+\subsubsection*{Example}
 
+Let $S={a,b,c,d,e,f,g,h}$
+\begin{itemize}
+\item One probable partitioning is ${a},{b,c,d},{e,f,g,h}$
+\item Another probable partitioning is ${a,b},{c,d},{e,f,g,h}$
+\end{itemize}
 %-------------------------------------------------% 
 \newpage
 \section*{Power Sets}
@@ -299,72 +286,6 @@ For the set $Y = \{u,v,w,x\}$ , answer the questions from the
 previous exercise
 \newpage
 
-%-------------------------------------------------% 
-
-\section*{Power Sets}
-\subsection*{Worked Example}
-Consider the set $Z$:
-\[ Z = \{ a,b,c\}  \]
-\begin{itemize}
-\item[Q1] How many sets are in the power set of $Z$? 
-\item[Q2] Write out the power set of $Z$. 
-\item[Q3] How many elements are in each element set?
-\end{itemize}
-%----------------------------------------------%
-\subsection*{Solutions to Worked Example}
-
-\begin{itemize}
-
-
-\item[Q1] There are 3 elements in $Z$. So there is $2^3 = 8$ element sets contained in the power set.
-
-\item[Q2] Write out the power set of $Z$.
-\[ \mathcal{P}(Z) = \{ \{0\}, \{a\}, \{b\}, \{c\}, \{a,b\}, \{a,c\}, \{b,c\}, \{a,b,c\} \]
-
-\item[Q3]
-\begin{itemize}
-\item[*] One element set is the null set - i.e. containing no
-elements \item[$\bullet$] Three element sets have only elements \item[$\bullet$]
-Three element sets have two elements \item[$\bullet$] One element set
-contains all three elements \item[$\bullet$] 1+3+3+1=8
-\end{itemize}
-\end{itemize}
-\subsection*{Exercise}
-For the set $Y = \{u,v,w,x\}$ , answer the questions from the
-previous exercise
-
-
-\section*{Power Sets}
-\subsection*{Worked Example}
-Consider the set $Z$:
-\[ Z = \{ a,b,c\}  \]
-\begin{itemize}
-\item[(i)] How many sets are in the power set of $Z$? 
-\item[(ii)] Write out the power set of $Z$. 
-\item[(iii)] How many elements are in each element set?
-\end{itemize}
-%----------------------------------------------%
-\subsection*{Solutions to Worked Example}
-
-\begin{itemize}
-
-
-\item[(i)] There are 3 elements in $Z$. So there is $2^3 = 8$ element sets contained in the power set.
-
-\item[(ii)] Write out the power set of $Z$.
-\[ \mathcal{P}(Z) = \{ \emptyset, \{a\}, \{b\}, \{c\}, \{a,b\}, \{a,c\}, \{b,c\}, \{a,b,c\} \} \]
-
-\item[(iii)]
-\begin{itemize}
-\item[$\bullet$] One element set is the null set - i.e. containing no
-elements \item[$\bullet$] Three element sets have only elements \item[$\bullet$]
-Three element sets have two elements \item[$\bullet$] One element set
-contains all three elements \item[$\bullet$] 1+3+3+1=8
-\end{itemize}
-\end{itemize}
-\subsection*{Exercise}
-For the set $Y = \{u,v,w,x\}$ , answer the questions from the
-previous exercise
 
 %--------------------------------------------------------%
 \section{Power Sets}
@@ -378,16 +299,6 @@ previous exercise
 %------------------------------------------------%
 
 
-%---------------------------- %
-%---------------------------------------%
-\subsubsection*{Power Sets}
-\begin{itemize}
-\item Consider the set A where $ A = \{w,x,y,z\}$
-\item There are 4 elements in set A.
-\item The power set of A contains 16 element data sets.
-\item \[  \mathcal{P}(A) = \{\{ x \}, \{ y \} \}  \]
-\item (i.e. 1 null set, 4 single element sets, 6 two -elemnts sets, 4 three lement set and one 4- element set.)
-\end{itemize}
 
 %------------------------------------------------------%
 \end{document}
