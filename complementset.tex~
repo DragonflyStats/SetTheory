@@ -158,81 +158,28 @@ is denoted as $A^c$ or $A^{\prime}$.
 \end{itemize}
 
 
+
+\Large
 %------------------------------------------------------%
-
-\section*{Complement of a Set}
-%(2.3.1)
-Consider the universal set $U$ such that
-\[U=\{2,4,6,8,10,12,15\} \]
-For each of the sets $A$,$B$,$C$ and $D$, specify the complement sets.
-\begin{center}
-\begin{tabular}{|c|c|}
-\hline
-Set & Complement\\
-%--------------------------------------------------------%
-\subsubsection*{Complements}
-\begin{itemize}
-
-\item The Complements of A and B are the elements of the universal set not contained in A and B.
-
-\item The complements are denoted $\mathcal{A}^{\prime}$ and $\mathcal{B}^{\prime}$
-\[ \mathcal{A}^{\prime} = \{4,6,8,9\}, \]
-\[ \mathcal{B}^{\prime} = \{1,3,5,7,9\}, \]
-
-
-
-%=========================================%
-\subsection{Complement of a Set}
-The complement of a set A (denoted by $A^{c}$) is the set of elements which are not in set A. Hence, $A^{c}={x|x \notin A}$.
-More specifically, $A^{c}=(U-A)$ where UU is a universal set which contains all objects.
-
-\subsection{Example} - If A={x|x belongstosetofoddintegers}A={x|x belongstosetofoddintegers} then $A^{c}={y|y \mbox{does not belong toset ofodd integers}}$
-
-Complement Set
-\end{itemize}
-
-
-
-
-
-
+\newpage
 \section*{Complement of a Set}
 %(2.3.1) 
-Consider the universal set $U$ such that
+\noindent Consider the universal set $U$ such that
 \[U=\{2,4,6,8,10,12,15\} \]
 For each of the sets $A$,$B$,$C$ and $D$, specify the complement sets.
-{
-
 \begin{center}
-\begin{tabular}{|c|c|}
-\hline
-Set &\phantom{sp} Complement \phantom{sp}\\
-\hline \phantom{sp} $A=\{4,6,12,15\}$ \phantom{sp} &
-$A^{\prime}=\{2,8,10\}$ \\ \hline $B=\{4,8,10,15\}$ & \\ \hline
-$C=\{2,6,12,15\}$ & \\ \hline $D=\{8,10,15\}$ & \\ \hline
-
-\end{tabular}
-\end{center}
-}
-%--------------------------------------------------------%
+{
+\Large
+\begin{tabular}{|l|l|}
+  \hline
+\phantom{spa}Set\phantom{spa} &\phantom{spa} Complement\phantom{spa}\\
 \hline $A=\{4,6,12,15\}$ &
-$A^{c}=\{2,8,10\}$ \\ \hline $B=\{4,8,10,15\}$ & \\ \hline
-$C=\{2,6,12,15\}$ & \\ \hline $D=\{8,10,15\}$ & \\ \hline
+$A^{C}=\{2,8,10\}$ \\ \hline $B=\{4,8,10,15\}$ & \\ \hline
+$C=\{2,6,12,15\}$ & \\ \hline $D=\{8,10,15\}$ &  \phantom{loadsandsloadsandloadsoffuckingspace} \\ \hline
 
 \end{tabular}
+}
 \end{center}
-
-\section{Differences and complements}
-\begin{itemize}
-\item If A and B are sets then the difference set A - B is the set of all elements
-of A which do not belong to B.
-\item If B is a sub-set of A, then A - B is sometimes called the complement of
-B in A. When A is the universal set one may simply refer to the
-complement of B to denote all things not in B. \item The complement of a set A
-is denoted as $A^c$ or $A^{c}$.
-\end{itemize}
-
-
 \end{document}
 
 

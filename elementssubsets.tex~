@@ -1,5 +1,3 @@
-
-
 \documentclass[11pt,a4paper,titlepage,oneside,openany]{article}
 
 \pagestyle{plain}
@@ -145,97 +143,78 @@
 
 \begin{document}
 
-\section{Differences and complements}
-
-
+\subsection{Elements of a Set}
 \begin{itemize}
-\item If A and B are sets then the difference set A − B is the set of all elements
-of A which do not belong to B.
-\item If B is a sub-set of A, then A − B is sometimes called the complement of
-B in A. When A is the universal set one may simply refer to the
-complement of B to denote all things not in B. \item The complement of a set A
-is denoted as $A^c$ or $A^{\prime}$.
+\item Sets are comprised of members, which are often called \textbf{elements}. 
+\item If a particular value ($k$) is an element of set $A$, then we would write this as
+\[k \in A \]
+
+\item If a single value $k$ is not an element of set $A$, then we write
+\[k \notin A \]
 \end{itemize}
 
-
-%------------------------------------------------------%
-
-\section*{Complement of a Set}
-%(2.3.1)
-Consider the universal set $U$ such that
-\[U=\{2,4,6,8,10,12,15\} \]
-For each of the sets $A$,$B$,$C$ and $D$, specify the complement sets.
-\begin{center}
-\begin{tabular}{|c|c|}
-\hline
-Set & Complement\\
-%--------------------------------------------------------%
-\subsubsection*{Complements}
-\begin{itemize}
-
-\item The Complements of A and B are the elements of the universal set not contained in A and B.
-
-\item The complements are denoted $\mathcal{A}^{\prime}$ and $\mathcal{B}^{\prime}$
-\[ \mathcal{A}^{\prime} = \{4,6,8,9\}, \]
-\[ \mathcal{B}^{\prime} = \{1,3,5,7,9\}, \]
+\subsection{Subsets}
+Given two sets $A$ and $B$, the set $A$ is a \textbf{subset} of set $B$ if every element of $A$ is also an element of $B$. 
 
 
-
-%=========================================%
-\subsection{Complement of a Set}
-The complement of a set A (denoted by $A^{c}$) is the set of elements which are not in set A. Hence, $A^{c}={x|x \notin A}$.
-More specifically, $A^{c}=(U-A)$ where UU is a universal set which contains all objects.
-
-\subsection{Example} - If A={x|x belongstosetofoddintegers}A={x|x belongstosetofoddintegers} then $A^{c}={y|y \mbox{does not belong toset ofodd integers}}$
-
-Complement Set
-\end{itemize}
+We write this mathematically as
+\[A \subseteq B \]
 
 
+\bigskip
+Sets are denoted with curly braces, even if they contain only one element.
+
+
+\textbf{Subsets}\\
+Suppose we have the set $A$ comprised of the following elements
+\[ A =\{3,5,7,9\}\]
+The value $5$ is an element of $A$
+\[  5 \in A \]
+
+The single element set $\{5\} $ is a subset of $A$.
+\[ \{5\} \subseteq A\]
+
+\section{Elements of a Set}
+
+A set is defined completely by its elements. Formally, sets X and Y are the same set if they have the same elements; that is, if every element of X is also an element of Y, and vice versa. For example, suppose we define:
+
+\[ F = \{x | \mbox{(x is an integer)} \mbox{ and } 0 < x < 4)\}  \]
+%Then F=A. The definition also makes it clear that {1,2,3} = (3,2,1} = {1,1,2,3,2}. Note also that if X and Y are both empty, then they are equal, justifying referring to "the" empty set.
+
+The equivalence of empty sets has a \textbf{\textit{metaphysical}} consequence for some theories of the metaphysics of properties that define the property of being x as simply the set of all x, then if the two properties are uninstantiated or coextensive they are equivalent - under this theory, because there are no unicorns and there are no pixies, the property of being a unicorn and being a pixie are the same - but if there were a unicorns and pixies, we could tell them apart. (See Universals for more on this.)
+
+\textbf{Elements and subsets}
+
+The $\in$  sign indicates set membership. If x is an element (or "member") of a set X, we write $ \in X$; e.g. $3\in A$. (We may also say ``X contains x" and ``A contains 3")
+
+A very important notion is that of a subset. X is a subset of Y, written $X \subseteq Y$ (sometimes simply as$X \subset Y$), if every element of X is also an element of Y. From before $C\subseteq A \subseteq E$.
+
+
+\textbf{Sets containing Sets}
+
+
+Sets can of course be elements of other sets; for example we can form the set $G = \{A,B,C,D,E\}$, whose five elements are the sets we considered earlier. Then, for instance, $A\in G$. (Note that this is very different from saying $A\subseteq G$)
+
+%The tilde (~) is as usual used for negation; e.g. $\tilde(A\in B)$.
+
+
+\subsection{Equivalent Sets}
+If both of the following two statements are \textbf{true}, 
+\[\mbox{1)  } A \subseteq B \]
+\[\mbox{2)  } B \subseteq A \]
+
+then $A$ and $B$ are \textbf{equivalent sets}.
 
 
 
+\textbf{Non-Comparable Sets}\\
+If both of the following two statements are \textbf{false}, 
+\[\mbox{1)  } A \subseteq B \]
+\[\mbox{2)  } B \subseteq A \]
 
-\section*{Complement of a Set}
-%(2.3.1) 
-Consider the universal set $U$ such that
-\[U=\{2,4,6,8,10,12,15\} \]
-For each of the sets $A$,$B$,$C$ and $D$, specify the complement sets.
-{
-
-\begin{center}
-\begin{tabular}{|c|c|}
-\hline
-Set &\phantom{sp} Complement \phantom{sp}\\
-\hline \phantom{sp} $A=\{4,6,12,15\}$ \phantom{sp} &
-$A^{\prime}=\{2,8,10\}$ \\ \hline $B=\{4,8,10,15\}$ & \\ \hline
-$C=\{2,6,12,15\}$ & \\ \hline $D=\{8,10,15\}$ & \\ \hline
-
-\end{tabular}
-\end{center}
-}
-%--------------------------------------------------------%
-\hline $A=\{4,6,12,15\}$ &
-$A^{c}=\{2,8,10\}$ \\ \hline $B=\{4,8,10,15\}$ & \\ \hline
-$C=\{2,6,12,15\}$ & \\ \hline $D=\{8,10,15\}$ & \\ \hline
-
-\end{tabular}
-\end{center}
-
-\section{Differences and complements}
-\begin{itemize}
-\item If A and B are sets then the difference set A - B is the set of all elements
-of A which do not belong to B.
-\item If B is a sub-set of A, then A - B is sometimes called the complement of
-B in A. When A is the universal set one may simply refer to the
-complement of B to denote all things not in B. \item The complement of a set A
-is denoted as $A^c$ or $A^{c}$.
-\end{itemize}
+then $A$ and $B$ are said to be said to be \textbf{noncomparable sets}.
 
 
+
+%-------------------------------------%
 \end{document}
-
-
- 
-
-

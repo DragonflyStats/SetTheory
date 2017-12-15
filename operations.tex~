@@ -407,6 +407,14 @@ $C = {3, 7}$\\
 %> D
 %[1] 2 5 6
 \end{verbatim}
+%--------------------------------------%
+\subsection*{Worked Example}
+Suppose that the Universal Set $\mathcal{U}$ is the set of integers from 1 to 9.
+\[ \mathcal{U} = \{1,2,3,4,5,6,7,8,9\}, \]
+and that the set $\mathcal{A}$ contains the prime numbers between 1 to 9 inclusive.
+\[ \mathcal{A} = \{1,2,3,5,7\}, \]
+and that the set $\mathcal{B}$ contains the even numbers between 1 to 9 inclusive.
+\[ \mathcal{B} = \{2,4,6,8\}. \]
 
 %--------------------------------------------------------%
 \subsubsection*{Intersection}

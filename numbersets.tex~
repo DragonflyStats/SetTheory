@@ -210,6 +210,63 @@ Set of all real numbers that are not quotients (i.e. numbers that can not be exp
 \end{itemize}
 \end{framed}
 
+\begin{enumerate}
+\item State which of the following sets the following numbers belong to. 
+  \begin{multicols}{4}
+    \begin{itemize}
+    \item[1)] $18$
+    \item[2)] $8.2347\ldots$
+    \item[3)] $\pi$
+    \item[4)] $1.33333\ldots$
+    \item[5)] $17/4$
+    \item[6)] $4.25$
+    \item[7)] $\sqrt{\pi}$
+    \item[8)] $\sqrt{25}$
+    %\item[i)]
+    %\item[j)] $(15)_{10}$
+    %\item[k)] $\pi$
+    %\item[l)] $11.132$
+    \end{itemize}
+  \end{multicols}
+  \bigskip
+  The possible answers are
+
+    \begin{itemize}
+    \item[a)] Natural number : $\mathbb{N} \subseteq \mathbb{Z } \subseteq \mathbb{Q} \subseteq \mathbb{R}$
+    \item[b)] Integer : $ \mathbb{Z } \subseteq \mathbb{Q} \subseteq \mathbb{R}$
+    \item[c)] Rational Number : $ \mathbb{Q} \subseteq \mathbb{R}$
+    \item[d)] Real Number $\mathbb{R}$
+
+    %\item[i)]
+    %\item[j)] $(15)_{10}$
+    %\item[k)] $\pi$
+    %\item[l)] $11.132$
+    \end{itemize}
+
+\end{enumerate}
+
+
+
+
+
+% \newpage
+\section*{Part D: Natural, Rational and Real Numbers}
+\begin{framed}
+	\begin{itemize}
+		\item $\mb{N}$ : natural numbers (or positive integers) $\{1,2,3,\ldots\}$
+		\item $\mb{Z}$ : integers $\{-3,-2,-1,0,1,2,3,\ldots\}$
+		\begin{itemize}
+			\item[$\ast$] (The letter $\mb{Z}$ comes from the word \emph{Zahlen} which means ``numbers" in German.)
+		\end{itemize}
+		\item $\mb{Q}$ : rational numbers
+		\item $\mb{R}$ : real numbers
+		\item $\mb{N} \subseteq \mb{Z } \subseteq \mb{Q} \subseteq \mb{R}$
+		\begin{itemize}
+			\item[$\ast$] (All natural numbers are integers. All integers are rational numbers. All rational numbers are real numbers.)
+		\end{itemize}
+	\end{itemize}
+\end{framed}
+
 %---------------------------------%
 \section*{Number Sets}
 The font that the following symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is known as \textit{\textbf{blackboard font}}.
@@ -249,6 +306,25 @@ $\mathbb{R}$ contains O and the negative reals and Q contains 0 and the negative
 positive ones.
 
 
+%---------------------------------%
+\section*{Number Sets}
+The font that the following symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is known as \textit{\textbf{blackboard font}}.
+\begin{itemize}
+	\item $\mathbb{N}$ Natural Numbers ($1,2,3,\ldots$) 
+%	\textit{(Not used in the CIS102 Syllabus)}
+	\item $\mathbb{Z}$ Integers ($-3,-2,-1,0,1,2,3, \ldots$)
+	\begin{itemize}
+		\item[$\bullet$] $\mathbb{Z}^{+}$ Positive Integers
+		\item[$\bullet$] $\mathbb{Z}^{-}$ Negative Integers
+		\item[$\bullet$] 0 is not considered as either positive or negative.
+	\end{itemize}
+	\item $\mathbb{Q}$ Rational Numbers
+	\item $\mathbb{R}$ Real Numbers
+	\item $\mathbb{C}$ Complex Numbers
+\end{itemize}
+
+
+\newpage
 %=====================================================%
 \subsection{Some Important Sets}
 \begin{itemize}
@@ -295,7 +371,13 @@ Let $U = \{1,2,\ldots, 9\}$ be the universal set, and let
 \item F = $\{1, 5, 9\}$.
 \end{itemize}
 
+%---------------------------------------------------%
+%---------------------------------------------------%
+% Schaum 1:4
 
+{Set Operations}
+
+%%- \vspace{-3cm}
 Find: 
 \begin{itemize}
 \item[(a)] A $\cup$ B and A $\cap$ B, 
@@ -304,6 +386,13 @@ Find:
 \end{itemize}
 
 
+%---------------------------------------------------%
+%---------------------------------------------------%
+% Schaum 1:4
+
+{Set Operations}
+
+%%- \vspace{-3cm}
 Find: 
 \begin{itemize}
 \item[(a)] A $\cup$ B and A $\cap$ B, \bigskip
@@ -312,7 +401,11 @@ Find:
 \end{itemize}
 
 
+%---------------------------------------------------%
+%---------------------------------------------------%
+% Schaum 1:4
 
+{Set Operations}
 
 %%- \vspace{-3cm}
 Find: 
@@ -321,6 +414,14 @@ Find:
 \item C = $\{5, 6, 7, 8, 9\}$
 \item D = $\{1, 3, 5, 7, 9\}$
 \end{itemize}
+
+
+%---------------------------------------------------%
+%---------------------------------------------------%
+% Schaum 1:4
+
+{Set Operations}
+%%- \vspace{-3cm}
 
 Find: 
 \begin{itemize}
@@ -355,6 +456,14 @@ Determine which of the following sets are finite:
 
 
 
+
+
+
+%---------------------------------------------------%
+
+{Set Theory}
+
+%%- \vspace{-1.8cm}
 Given the set \textbf{A} is contructed as follows 
 \[ [\{a, b\}, \{c\}, \{d, e, f \} ]. \]
 
@@ -377,16 +486,30 @@ Given the set \textbf{A} is contructed as follows
 \end{itemize}
 
 
+
+%---------------------------------------------------%
+%---------------------------------------------------%
+
+{Set Theory}
+
+%%- \vspace{-3.8cm}
 \[\boldsymbol{A} = [\{a, b\}, \{c\},\{d, e, f \}]. \]
 \begin{itemize}
 \item[(b)] Find the cardinality of \textbf{A} : $n(\boldsymbol{A})$. 
 \end{itemize}
 
 
+
+{Set Theory}
+
+%%- \vspace{-3.8cm}
 \[\boldsymbol{A} = [\{a, b\}, \{c\},\{d, e, f \}]. \]
 \begin{itemize}
 \item[(c)] Find the power set of \textbf{A}. 
 \end{itemize}
+
+
+
 
 
 Consider the set \textbf{A}, which is a subset of the the universal set of real numbers $\mathbb{R}$
@@ -619,7 +742,38 @@ Using formal set notation, write the sets of:
 \item There are numbers that are not real numbers, for example \textbf{imaginary numbers}, but we will not cover them in this presentation.
 \end{itemize}
 
+%---------------------------------%
+\section*{Number Sets}
+The font that the following symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is known as \textit{\textbf{blackboard font}}.
+\begin{itemize}
+\item $\mathbb{N}$ Natural Numbers ($1,2,3,\ldots$) 
+%\textit{(Not used in the CIS102 Syllabus)}
+\item $\mathbb{Z}$ Integers ($-3,-2,-1,0,1,2,3, \ldots$)
+\begin{itemize}
+\item[$\bullet$] $\mathbb{Z}^{+}$ Positive Integers
+\item[$\bullet$] $\mathbb{Z}^{-}$ Negative Integers
+\item[$\bullet$] 0 is not considered as either positive or negative.
+\end{itemize}
+\item $\mathbb{Q}$ Rational Numbers
+\item $\mathbb{R}$ Real Numbers
+\item $\mathbb{C}$ Complex Numbers
+\end{itemize}
 
+
+
+
+%----------------------------------------------------------------%
+
+\section{Number Sets}
+
+%% %% - \vspace{-1cm}
+\textbf{Blackboard Bold Typeface}
+
+\begin{itemize}
+\item Conventionally the symbols for numbers sets are written in a special typeface, known as \textbf{blackboard bold}.
+\item Examples : $\mathbb{N}$, $\mathbb{Z}$ and $\mathbb{R}$.
+
+\end{itemize}
 
 
 %% %% - \vspace{-1cm}
@@ -635,6 +789,21 @@ Using formal set notation, write the sets of:
 
 %----------------------------------------------------------------%
 
+
+\subsection{Number Sets}
+
+
+%% %% - \vspace{-0.5cm}
+\textbf{Integers} ($\mathbb{Z}$)
+\begin{itemize}
+\item The integers are all the whole numbers, all the negative whole numbers and zero.
+
+\item The set of integers is 
+\[\{\ldots,-4,-3,-2,-1,\;0,\;1,\;2,\;3,\ldots\} \]
+\item The notation $\mathbb{Z}$ is from the German word for numbers: \textit{Zahlen}. 
+\item All natural numbers are integers.
+\[ \mathbb{Q}  \subset \mathbb{Z}\]
+\end{itemize}
 
 %----------------------------------------------------------------%
 
@@ -682,14 +851,105 @@ Using formal set notation, write the sets of:
 
 %-------------------------------------------------------------- %   
 
+\subsection{Number Sets}
+
+%% %% - \vspace{-1cm}
+\textbf{Irrational Numbers} 
+\begin{itemize}
+\item A number that can not be written as the ratio of two integers is known as an irrational number.
+\item Two famous examples of irrational numbers are $\pi$ and $\sqrt{2}$. 
+\[\pi = 3.141592\ldots\]
+\[\sqrt{2} = 1.41421\ldots\]
+\end{itemize}
+
+\textbf{Real Numbers} ($\mathbb{R}$)
+\begin{itemize}
+\item Irrational numbers are types of real numbers.
+\item Rational numbers are real numbers too.
+\[ \mathbb{Q}  \subset \mathbb{R}\]
+
+\item A real number is simply any point anywhere on the number line.
+\end{itemize}
 
 
-\subsection{Real Numbers} ($\mathbb{R}$)
+\textbf{Real Numbers} ($\mathbb{R}$)
 \begin{itemize}
 \item There are numbers that are not real numbers, for example \textbf{imaginary numbers}, but we will not cover them in this presentation.
 \end{itemize}
 
+% \newpage
+\section*{Part D: Natural, Rational and Real Numbers}
+\begin{framed}
+\begin{itemize}
+\item $\mb{N}$ : natural numbers (or positive integers) $\{1,2,3,\ldots\}$
+\item $\mb{Z}$ : integers $\{-3,-2,-1,0,1,2,3,\ldots\}$
+\begin{itemize}
+\item[$\ast$] (The letter $\mb{Z}$ comes from the word \emph{Zahlen} which means ``numbers" in German.)
+\end{itemize}
+\item $\mb{Q}$ : rational numbers
+\item $\mb{R}$ : real numbers
+\item $\mb{N} \subseteq \mb{Z } \subseteq \mb{Q} \subseteq \mb{R}$
+\begin{itemize}
+\item[$\ast$] (All natural numbers are integers. All integers are rational numbers. All rational numbers are real numbers.)
+\end{itemize}
+\end{itemize}
+\end{framed}
 
+\begin{enumerate}
+\item State which of the following sets the following numbers belong to. 
+  \begin{multicols}{4}
+    \begin{itemize}
+    \item[1)] $18$
+    \item[2)] $8.2347\ldots$
+    \item[3)] $\pi$
+    \item[4)] $1.33333\ldots$
+    \item[5)] $17/4$
+    \item[6)] $4.25$
+    \item[7)] $\sqrt{\pi}$
+    \item[8)] $\sqrt{25}$
+    %\item[i)]
+    %\item[j)] $(15)_{10}$
+    %\item[k)] $\pi$
+    %\item[l)] $11.132$
+    \end{itemize}
+  \end{multicols}
+  \bigskip
+  The possible answers are
+
+    \begin{itemize}
+    \item[a)] Natural number : $\mb{N} \subseteq \mb{Z } \subseteq \mb{Q} \subseteq \mb{R}$
+    \item[b)] Integer : $ \mb{Z } \subseteq \mb{Q} \subseteq \mb{R}$
+    \item[c)] Rational Number : $ \mb{Q} \subseteq \mb{R}$
+    \item[d)] Real Number $\mb{R}$
+
+    %\item[i)]
+    %\item[j)] $(15)_{10}$
+    %\item[k)] $\pi$
+    %\item[l)] $11.132$
+    \end{itemize}
+
+\end{enumerate}
+
+
+
+
+
+% \newpage
+\section*{Part D: Natural, Rational and Real Numbers}
+\begin{itemize}
+\item $\mb{N}$ : natural numbers (or positive integers) $\{1,2,3,\ldots\}$
+\item $\mb{Z}$ : integers $\{-3,-2,-1,0,1,2,3,\ldots\}$
+\begin{itemize}
+\item (The letter $\mb{Z}$ comes from the word \emph{Zahlen} which means ``numbers" in German.)
+\end{itemize}
+\item $\mb{Q}$ : rational numbers
+\item $\mb{R}$ : real numbers
+\item $\mb{N} \subseteq \mb{Z } \subseteq \mb{Q} \subseteq \mb{R}$
+\begin{itemize}
+\item (All natural numbers are integers. All integers are rational numbers. All rational numbers are real numbers.)
+\end{itemize}
+\end{itemize}
+\newpage
 
 
 \begin{enumerate}

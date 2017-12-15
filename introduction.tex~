@@ -164,16 +164,8 @@ Note that the last of these sets is infinite.
 A set is the collection of its elements considered as a single, abstract entity. Note that this is different from the elements themselves, and may have different properties. For example, the elements of D are flammable (they are books), but D itself is not flammable, since abstract objects cannot be burnt.
 
 
-%---------------------------------------------------------------------------------------------------- %
-% CIS 102
-\section{Introduction} %GOOD - MERGE with above
-\smallskip 
-By a set we simply mean a collection or class of objects. The objects in the set are Called its
-members or elements. Sets have become the basic language in which most results in mathematics
-and computer science are expressed. 
-In this chapter, we look at ways in which sets are specified,
-how they may be represented and how they are combined to make other sets.
-\smallskip 
+	
+\section{Set Theory Introduction}
 
 
 \begin{itemize}
@@ -183,8 +175,7 @@ are called elements or members of the set. We refer to the set as an
 entity in its own right and often denote it by A, B, C or D, etc.
 \item 
 If A is a set and x a member of the set, then we say $x \in A$ i.e. x ‘belongs to’
-A. 
-\item The symbol $\notin$ denotes the negation of $in$  i.e. x $\notin$ A means ‘x does not
+A. The symbol $\notin$ denotes the negation of $in$  i.e. x $\notin$ A means ‘x does not
 belong to’ A.
 \end{itemize}
 
@@ -212,10 +203,37 @@ Some Example of Sets
 \section{Sets}
 \smallskip   %GOOD
 
-
-
+\begin{itemize}
+\item A set is simply a collection of things or objects, of any kind. These objects
+are called elements or members of the set. We refer to the set as an
+entity in its own right and often denote it by A, B, C or D, etc.
+\item If A is a set and x a member of the set, then we say $x \in A$ i.e. x ``belongs to``
+A. 
+\end{itemize}
+\smallskip 
+%---------------------------------------------------------------------------------------------------- %
+% CIS 102
+\section{Introduction} %GOOD - MERGE with above
+\smallskip 
+By a set we simply mean a collection or class of objects. The objects in the set are Called its
+members or elements. Sets have become the basic language in which most results in mathematics
+and computer science are expressed. 
+In this chapter, we look at ways in which sets are specified,
+how they may be represented and how they are combined to make other sets.
+\smallskip 
 %----------------------------------------------------------------------------------------------- %
 \section{Introduction to Set Theory}
+\begin{itemize}
+\item The symbol $\notin$ denotes the negation of ? $in$.e. $x \notin A$ means ‘x does not
+belong to’ A.
+\item The elements of a set, and hence the set itself, are characterised by having
+one or more properties that distinguish the elements of the set from those
+not in the set.
+\item For example, if C is the set of non-negative real numbers, then we
+might use the notation
+\[C = {x | \mbox{x is a real number and }x \neq 0}\]
+i.e. the set of all x such that x is a real number and non-negative.
+\end{itemize}
 
 
 \begin{itemize}

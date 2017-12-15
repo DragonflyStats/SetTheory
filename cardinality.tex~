@@ -56,17 +56,19 @@ $|X|<|Y|$ denotes that set X’s cardinality is less than set Y’s cardinality.
 If $|X|\leq|Y|$ and $|X|\geq|Y|$ then $|X|=|Y|$. The sets X and Y are commonly referred as equivalent sets.
 \end{itemize}
 
+\textbf{Cardinality}
 
-
-\subsection{Cardinality}
-
-The cardinality $\|X\|$ of X is, roughly speaking, its size. The empty set has size 0, while B = $\{red, green, blue\}$ has size 3. 
+\noindent The cardinality $\|X\|$ of X is, roughly speaking, its size. 
+The empty set has size 0, while B = $\{red, green, blue\}$ has size 3. 
 
 This method of expressing cardinality works for finite sets but is not helpful for infinite ones. A more useful notion is that of two sets having the same size: if a direct one-to-one correspondence can be found between the elements of X and those of Y, they have the same size. 
 
-Consider the sets, both infinite, of positive integers $\{1,2,3,4, \ldots\}$ and of even positive integers $\{2,4,6,8, \ldots\}$. One is a subset of the other. Nevertheless they have the same cardinality, as is shown by the correspondence mapping n in the former set to 2n in the latter. We can express this by writing $\|X\|$ = $\|Y\|$, or by saying that X and Y are "equinumerous".
+Consider the sets, both infinite, of positive integers $\{1,2,3,4, \ldots\}$ and of even positive integers $\{2,4,6,8, \ldots\}$. 
 
-\subsection{Examples}
+One is a subset of the other. Nevertheless they have the same cardinality, as is shown by the correspondence mapping n in the former set to 2n in the latter. We can express this by writing $\|X\|$ = $\|Y\|$, or by saying that X and Y are "equinumerous".
+%---------------------------------------------------- %
+
+\textbf{Examples}
 \begin{itemize}
 \item[(i)] $|\{2,6,7\}|$
 \item[(ii)] $|\{5,6,5,2,2,6,5,1,1,1\}|$
@@ -138,19 +140,37 @@ Consider the sets, both infinite, of positive integers $\{1,2,3,4, \ldots\}$ and
 %---------------------------------------------------- %
 
 {Cardinality of a Set}
-
+\Large
+\vspace{-1cm}
 \begin{itemize}
 \item The cardinality of a set A is the number of elements in A, which is written as $|A|$.
 \item An element of a set is any one of the \textbf{distinct} objects that make up that set.
 
+\end{itemize}
 
+%---------------------------------------------------- %
+%---------------------------------------------------- %
+
+{Cardinality of a Set}
+\Large
+\vspace{-1cm}
+\begin{itemize}
 
 \item Note that this vertical-bar notation looks the same as absolute value notation, 
 but the meaning of cardinality is different from absolute value.
 
 \item In particular, absolute value operates on numbers (e.g., $|-4| = 4$) 
 while cardinality operates on sets (e.g., $|\{-4\}| = 1$).
+\end{itemize}
 
+%---------------------------------------------------- %
+%---------------------------------------------------- %
+
+{Examples of cardinality}
+\LARGE
+\vspace{-1cm}
+\textbf{Examples}
+\begin{itemize}
 \item[(i)] $|\{2,6,7\}|$
 \item[(ii)] $|\{5,6,5,2,2,6,5,1,1,1\}|$
 \item[(iii)] $|\{ \;\}| = 0$. %The empty set has no elements.
@@ -159,6 +179,12 @@ while cardinality operates on sets (e.g., $|\{-4\}| = 1$).
 \end{itemize}
 
 
+%---------------------------------------------------- %
+%---------------------------------------------------- %
+
+{Examples of cardinality}
+\LARGE
+\vspace{-1cm}
 \textbf{Examples}
 \begin{itemize}
 \item[(i)] $|\{2,6,7\}| $
@@ -171,7 +197,8 @@ while cardinality operates on sets (e.g., $|\{-4\}| = 1$).
 %---------------------------------------------------- %
 
 {Examples of cardinality}
-
+\LARGE
+\vspace{-1cm}
 \textbf{Examples}
 \begin{itemize}
 \item[(i)] $|\{2,6,7\}| = 3 $
@@ -180,6 +207,12 @@ while cardinality operates on sets (e.g., $|\{-4\}| = 1$).
 \end{itemize}
 
 
+%---------------------------------------------------- %
+%---------------------------------------------------- %
+
+{Examples of cardinality}
+\LARGE
+\vspace{-1cm}
 \textbf{Examples}
 \begin{itemize}
 \item[(i)] $|\{2,6,7\}| $
@@ -188,13 +221,25 @@ while cardinality operates on sets (e.g., $|\{-4\}| = 1$).
 \end{itemize}
 
 
+%---------------------------------------------------- %
+%---------------------------------------------------- %
+
+{Examples of cardinality}
+\LARGE
+\vspace{-1cm}
+\textbf{Examples}
 \begin{itemize}
 \item[(i)] $|\{2,6,7\}| = 3$
 \vspace{2cm}
 \item[(ii)] $|\{5,6,5,2,2,6,5,1,1,1\}| = |\{1,2,5,6\}| = 4$
 \end{itemize}
 
+%---------------------------------------------------- %
+%---------------------------------------------------- %
 
+{Examples of cardinality}
+\LARGE
+\vspace{-1cm}
 \textbf{Examples}
 \begin{itemize}
 \item[(iii)] $|\{ \; \}| $
@@ -206,14 +251,23 @@ while cardinality operates on sets (e.g., $|\{-4\}| = 1$).
 %---------------------------------------------------- %
 %---------------------------------------------------- %
 
-\subsection{Examples of cardinality}
-
+{Examples of cardinality}
+=
 \textbf{Examples}
 \begin{itemize}
 \item[(iii)] $|\{ \; \}| = 0$. \\ The empty set has no elements.
 \vspace{0.4cm} 
 \item[(iv)] $|\{\{1,2\},\{3,4\}\}| = 2$. \\ \vspace{0.4cm} In this case the two elements of $\{\{1,2\},\{3,4\}\}$ are themselves sets: $\{1,2\}$ and $\{3,4\}$.
 \end{itemize}
+
+\subsection{Cardinality}
+
+The cardinality $\|X\|$ of X is, roughly speaking, its size. The empty set has size 0, while B = $\{red, green, blue\}$ has size 3. 
+
+This method of expressing cardinality works for finite sets but is not helpful for infinite ones. A more useful notion is that of two sets having the same size: if a direct one-to-one correspondence can be found between the elements of X and those of Y, they have the same size. 
+
+Consider the sets, both infinite, of positive integers $\{1,2,3,4, \ldots\}$ and of even positive integers $\{2,4,6,8, \ldots\}$. One is a subset of the other. Nevertheless they have the same cardinality, as is shown by the correspondence mapping n in the former set to 2n in the latter. We can express this by writing $\|X\|$ = $\|Y\|$, or by saying that X and Y are "equinumerous".
+
 
 %--------------------------%
 \end{document}
