@@ -143,6 +143,48 @@
 
 \renewcommand{\labelenumii}{\roman{enumii})}
 
+
+\documentclass[12pt]{article}
+%\usepackage[final]{pdfpages}
+
+\usepackage{graphicx}
+\graphicspath{{/Users/kevinhayes/Documents/teaching/images/}}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+
+\newcommand{\bbr}{\Bbb{R}}
+\newcommand{\zn}{\Bbb{Z}^n}
+
+%\usepackage{epsfig}
+%\usepackage{subfigure}
+\usepackage{amscd}
+\usepackage{framed}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{amsthm}
+\usepackage{natbib}
+\usepackage{amsbsy}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{eurosym}
+\usepackage{multicol}
+%\usepackage{beamerarticle}
+%\usepackage{txfonts}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+\usepackage{natbib}
+\bibliographystyle{chicago}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+
+\pagenumbering{arabic}
+
 \begin{document}
 %---------------------------------%
 \section{Number Sets}
@@ -355,7 +397,7 @@ Determine which of the following sets are finite:
 
 
 
-Given the set \textbf{A} is contructed as follows 
+Given the set \textbf{A} is constructed as follows 
 \[ [\{a, b\}, \{c\}, \{d, e, f \} ]. \]
 
 \begin{itemize}
@@ -712,10 +754,10 @@ Using formal set notation, write the sets of:
   \end{multicols}The possible answers are
   \begin{multicols}{2}
     \begin{itemize}
-    \item[a)] Natural number : $\mb{N} \subseteq \mb{Z } \subseteq \mb{Q} \subseteq \mb{R}$
-    \item[b)] Integer : $ \mb{Z } \subseteq \mb{Q} \subseteq \mb{R}$
-    \item[c)] Rational Number : $ \mb{Q} \subseteq \mb{R}$
-    \item[d)] Real Number $\mb{R}$
+    \item[a)] Natural number : $\mathbb{N} \subseteq \mathbb{Z } \subseteq \mathbb{Q} \subseteq \mathbb{R}$
+    \item[b)] Integer : $ \mathbb{Z } \subseteq \mathbb{Q} \subseteq \mathbb{R}$
+    \item[c)] Rational Number : $ \mathbb{Q} \subseteq \mathbb{R}$
+    \item[d)] Real Number $\mathbb{R}$
 
     %\item[i)]
     %\item[j)] $(15)_{10}$
