@@ -143,6 +143,47 @@
 
 \begin{document}
 
+\documentclass[12pt]{article}
+%\usepackage[final]{pdfpages}
+
+\usepackage{graphicx}
+\graphicspath{{/Users/kevinhayes/Documents/teaching/images/}}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+
+\newcommand{\bbr}{\Bbb{R}}
+\newcommand{\zn}{\Bbb{Z}^n}
+
+%\usepackage{epsfig}
+%\usepackage{subfigure}
+\usepackage{amscd}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{amsthm}
+\usepackage{natbib}
+\usepackage{amsbsy}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{eurosym}
+%\usepackage{beamerarticle}
+\usepackage{txfonts}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+\usepackage{natbib}
+\bibliographystyle{chicago}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+
+\pagenumbering{arabic}
+
+\begin{document}
+
 \textbf{Power set}
 
 The power set of X, $P(X)$, is the set whose elements are all the subsets of X. Thus \[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}\]. The power set of the empty set $P(\{\})$ = $\{\{\}\}$. 
@@ -236,10 +277,10 @@ Partition of a set, say S, is a collection of n disjoint subsets, say $P1,P2 \ld
  $[Pi \neq {\varnothing} for all 0<i\leq n]$
 \item The union of the subsets must equal the entire original set.
 
-\[P1 \cup P2 \cup \ldots \cup Pn=S]
-\item The Intersection of any two distinct \sets is empty.
+\[P1 \cup P2 \cup \ldots \cup Pn=S\]
+\item The Intersection of any two distinct sets is empty.
 
-[$Pa \cap Pb={\varnothing}, for a\neq b where n\geq a,b\geq 0]$
+\[Pa \cap Pb={\varnothing}, for a\neq b where n\geq a,b\geq 0\]
 \end{enumerate}
 
 %--------------------------------------------------------%
@@ -309,6 +350,4 @@ previous exercise
 %------------------------------------------------%
 
 
-
-%------------------------------------------------------%
 \end{document}
