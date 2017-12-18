@@ -143,6 +143,45 @@
 
 \renewcommand{\labelenumii}{\roman{enumii})}
 
+
+\documentclass[12pt]{article}
+%\usepackage[final]{pdfpages}
+
+\usepackage{graphicx}
+\graphicspath{{/Users/kevinhayes/Documents/teaching/images/}}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+
+\newcommand{\bbr}{\Bbb{R}}
+\newcommand{\zn}{\Bbb{Z}^n}
+
+%\usepackage{epsfig}
+%\usepackage{subfigure}
+\usepackage{amscd}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{amsthm}
+\usepackage{natbib}
+\usepackage{amsbsy}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{eurosym}
+%\usepackage{beamerarticle}
+\usepackage{txfonts}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+\usepackage{natbib}
+\bibliographystyle{chicago}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+
+\pagenumbering{arabic}
 \begin{document}
 
 \section{Differences and complements}
@@ -165,10 +204,7 @@ is denoted as $A^c$ or $A^{\prime}$.
 Consider the universal set $U$ such that
 \[U=\{2,4,6,8,10,12,15\} \]
 For each of the sets $A$,$B$,$C$ and $D$, specify the complement sets.
-\begin{center}
-\begin{tabular}{|c|c|}
-\hline
-Set & Complement\\
+
 %--------------------------------------------------------%
 \subsubsection*{Complements}
 \begin{itemize}
@@ -178,7 +214,7 @@ Set & Complement\\
 \item The complements are denoted $\mathcal{A}^{\prime}$ and $\mathcal{B}^{\prime}$
 \[ \mathcal{A}^{\prime} = \{4,6,8,9\}, \]
 \[ \mathcal{B}^{\prime} = \{1,3,5,7,9\}, \]
-
+\end{itemize}
 
 
 %=========================================%
@@ -189,7 +225,6 @@ More specifically, $A^{c}=(U-A)$ where UU is a universal set which contains all 
 \subsection{Example} - If A={x|x belongstosetofoddintegers}A={x|x belongstosetofoddintegers} then $A^{c}={y|y \mbox{does not belong toset ofodd integers}}$
 
 Complement Set
-\end{itemize}
 
 
 
@@ -214,13 +249,7 @@ $C=\{2,6,12,15\}$ & \\ \hline $D=\{8,10,15\}$ & \\ \hline
 \end{tabular}
 \end{center}
 }
-%--------------------------------------------------------%
-\hline $A=\{4,6,12,15\}$ &
-$A^{c}=\{2,8,10\}$ \\ \hline $B=\{4,8,10,15\}$ & \\ \hline
-$C=\{2,6,12,15\}$ & \\ \hline $D=\{8,10,15\}$ & \\ \hline
 
-\end{tabular}
-\end{center}
 
 \section{Differences and complements}
 \begin{itemize}
