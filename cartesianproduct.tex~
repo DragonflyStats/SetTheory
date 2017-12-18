@@ -44,12 +44,6 @@ a Cartesian product is a mathematical operation that returns a set (or product s
 The Cartesian product of n number of sets $A1,A2,\ldots A_n$ denoted as $A1\times A2 \ldots \times An$ can be defined as all possible ordered pairs $(x1,x2,\ldots x_n)$
 where $x1\in A1,x2\in A2,\ldots x_n \in A_n$
 
- Let $ A$ and $ B$ be two sets. The cartesian product of $ A$ and $ B$, denoted  $ A \times B$, is the set of all ordered pairs $ (a,b)$ such that $ a \in A$ and $ b \in B$.
-$\displaystyle A \times B = \{ (a,b) \; \vert \; a \in A, \; b \in B \}.$	   
-
-For example, if  $ A=\{ a,b,c \}$ and  $ B= \{ 1,2 \}$, then
-$\displaystyle A \times B = \{ (a,1), (a,2), (b,1), (b,2), (c,1), (c,2) \}.$
-
 \subsection{Example}
 If we take two sets A={a,b}A={a,b} and B={1,2}
 B={1,2},

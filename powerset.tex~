@@ -154,5 +154,39 @@ Let $S={a,b,c,d,e,f,g,h}$
 \end{itemize}
 %-------------------------------------------------% 
 
+%------------------------------------------------------%\section*{Power Sets}
+\subsection*{Worked Example}
+Consider the set $Z$:
+\[ Z = \{ a,b,c\}  \]
+\begin{itemize}
+\item[(i)] How many sets are in the power set of $Z$? 
+\item[(ii)] Write out the power set of $Z$. 
+\item[(iii)] How many elements are in each element set?
+\end{itemize}
+%----------------------------------------------%
+\subsection*{Solutions to Worked Example}
+
+\begin{itemize}
+
+
+\item[(i)] There are 3 elements in $Z$. So there is $2^3 = 8$ element sets contained in the power set.
+
+\item[(ii)] Write out the power set of $Z$.
+\[ \mathcal{P}(Z) = \{ \emptyset, \{a\}, \{b\}, \{c\}, \{a,b\}, \{a,c\}, \{b,c\}, \{a,b,c\} \} \]
+
+\item[(iii)]
+\begin{itemize}
+\item[$\bullet$] One element set is the null set - i.e. containing no
+elements \item[$\bullet$] Three element sets have only elements \item[$\bullet$]
+Three element sets have two elements \item[$\bullet$] One element set
+contains all three elements \item[$\bullet$] 1+3+3+1=8
+\end{itemize}
+\end{itemize}
+\subsection*{Exercise}
+For the set $Y = \{u,v,w,x\}$ , answer the questions from the
+previous exercise
+
+
+
 
 \end{document}

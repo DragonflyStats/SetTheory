@@ -59,24 +59,24 @@ Sets can be classified into many types. Some of which are finite, infinite, subs
 
 
 %=================================================%
-\subsection*{Finite Set}
+\subsection{Finite Set}
 A set which contains a definite number of elements is called a finite set.
 
-\subsubsection*{Example} \[S=\{x|x \in N and 70 >x>50\}\]
-\subsection*{Infinite Set}
+\subsubsection{Example} \[S=\{x|x \in N and 70 >x>50\}\]
+\subsection{Infinite Set}
 A set which contains infinite number of elements is called an infinite set.
 
-\subsubsection*{Example} \[S={x|x\in N  and x>10}\]
-\subsection*{Subset}
+\subsubsection{Example} \[S={x|x\in N  and x>10}\]
+\subsection{Subset}
 A set X is a subset of set Y (Written as $X \subseteq Y$) if every element of X is an element of set Y.
 
-Example 1 − Let, $X={1,2,3,4,5,6}$ and Y={1,2}Y={1,2}. Here set Y is a subset of set X as all the elements of set Y is in set X. Hence, we can write $Y\subseteq X$.
+Example 1 − Let, $X={1,2,3,4,5,6}$ and Y={1,2}Y={1,2}. Here set Y is a subset of set X as all the elements of set Y is in set X. Hence, we can write Y⊆XY⊆X.
 
-Example 2 − Let, $X={1,2,3}$ and $Y={1,2,3}$. Here set Y is a subset (Not a proper subset) of set X as all the elements of set Y is in set X. Hence, we can write $Y\subseteqX$.
+Example 2 − Let, $X={1,2,3}$ and Y={1,2,3}Y={1,2,3}. Here set Y is a subset (Not a proper subset) of set X as all the elements of set Y is in set X. Hence, we can write Y⊆XY⊆X.
 
 
 
-\subsubsection{Example} Let, $X={1,2,3,4,5,6}$ and $Y={1,2}$. Here set $Y \subset X$ since all elements in $Y$ are contained in $X$ too and $X$ has at least one element is more than set YY.
+\subsubsection{Example} Let, $X={1,2,3,4,5,6}$ and Y={1,2}Y={1,2}. Here set Y⊂XY⊂X since all elements in YY are contained in XX too and XX has at least one element is more than set YY.
 
 \subsection{Universal Set}
 It is a collection of all elements in a particular context or application. All the sets in that context or application are essentially subsets of this universal set. Universal sets are represented as $U$.
@@ -84,9 +84,9 @@ It is a collection of all elements in a particular context or application. All t
 \subsubsection{Example} We may define $U$ as the set of all animals on earth. In this case, set of all mammals is a subset of $U$, set of all fishes is a subset of $U$, set of all insects is a subset of $U$, and so on.
 
 \subsection{Empty Set or Null Set}
-An empty set contains no elements. It is denoted by $\varnothing$. As the number of elements in an empty set is finite, empty set is a finite set. The cardinality of empty set or null set is zero.
+An empty set contains no elements. It is denoted by ∅∅. As the number of elements in an empty set is finite, empty set is a finite set. The cardinality of empty set or null set is zero.
 
-\subsubsection{Example} \[S={x|x\in N \mbox{ and }7<x<8}=\varnothing\]
+\subsubsection{Example} \[S={x|x\in N and 7<x<8}=∅\]
 
 
 
@@ -107,16 +107,16 @@ Singleton set or unit set contains only one element. A singleton set is denoted 
 
 \subsubsection{Example} $S={x|x\in N, 7<x<9} = {8}$
 
-\subsection*{Equal Set}
+\subsection{Equal Set}
 If two sets contain the same elements they are said to be equal.
 
-\subsubsection*{Example} If A={1,2,6}A={1,2,6} and B={6,1,2}B={6,1,2}, they are equal as every element of set A is an element of set B and every element of set B is an element of set A.
+\subsubsection{Example} If A={1,2,6}A={1,2,6} and B={6,1,2}B={6,1,2}, they are equal as every element of set A is an element of set B and every element of set B is an element of set A.
 
 \section{Equivalent Set}
 If the cardinalities of two sets are same, they are called equivalent sets.
 
 \subsubsection{Example} If A={1,2,6}A={1,2,6} and B={16,17,22}B={16,17,22}, they are equivalent as cardinality of A is equal to the cardinality of B. i.e. |A|=|B|=3|A|=|B|=3
-\subsection*{Overlapping Set}
+\subsection{Overlapping Set}
 Two sets that have at least one common element are called overlapping sets.
 
 In case of overlapping sets −
@@ -167,7 +167,7 @@ Difference between equal sets and equivalent sets
 %---------------------------------------------------%
 
 
-\subsection{Equal and Equivalent Sets}
+{Equal and Equivalent Sets}
 
 %%- \vspace{-0.7cm}
 Difference between equal sets and equivalent sets
@@ -182,6 +182,17 @@ Difference between equal sets and equivalent sets
 \end{itemize}
 
 
+
+
+
+
+%---------------------------------------------------%
+
+
+{Equal and Equivalent Sets}
+
+%%- \vspace{-1cm}
+
 \begin{itemize}
 	\item Necessarily all equal sets are equivalent sets.
 	\item But are equivalent sets equal sets?
@@ -190,7 +201,7 @@ Difference between equal sets and equivalent sets
 	their elements are precisely the \textit{\textbf{same}}. 
 \end{itemize}
 
-\subsection{Example}:
+\textbf{Example}:
 \begin{itemize} \item \textbf{X}=\{p,q,r\} and \textbf{Y}=\{1,2,3\} are equivalent sets 
 	\item \textbf{E} =\{m,n,o,p\}
 	and \textbf{F}=\{m,n,o,p\} are equal and equivalent sets
