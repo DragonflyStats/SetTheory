@@ -1,5 +1,4 @@
 
-
 \documentclass[11pt,a4paper,titlepage,oneside,openany]{article}
 
 \pagestyle{plain}
@@ -143,110 +142,40 @@
 
 \renewcommand{\labelenumii}{\roman{enumii})}
 
-
-\documentclass[12pt]{article}
-%\usepackage[final]{pdfpages}
-
-\usepackage{graphicx}
-\graphicspath{{/Users/kevinhayes/Documents/teaching/images/}}
-
-\usepackage{tikz}
-\usetikzlibrary{arrows}
-
-\newcommand{\bbr}{\Bbb{R}}
-\newcommand{\zn}{\Bbb{Z}^n}
-
-%\usepackage{epsfig}
-%\usepackage{subfigure}
-\usepackage{amscd}
-\usepackage{amssymb}
-\usepackage{amsbsy}
-\usepackage{amsthm}
-\usepackage{natbib}
-\usepackage{amsbsy}
-\usepackage{enumerate}
-\usepackage{amsmath}
-\usepackage{eurosym}
-%\usepackage{beamerarticle}
-\usepackage{txfonts}
-\usepackage{fancyvrb}
-\usepackage{fancyhdr}
-\usepackage{natbib}
-\bibliographystyle{chicago}
-
-\usepackage{vmargin}
-% left top textwidth textheight headheight
-% headsep footheight footskip
-\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
-\renewcommand{\baselinestretch}{1.3}
-
-
-\pagenumbering{arabic}
 \begin{document}
-
-
-\section{Differences and complements}
-
-
-\begin{itemize}
-\item If A and B are sets then the difference set A − B is the set of all elements
-of A which do not belong to B.
-\item If B is a sub-set of A, then A − B is sometimes called the complement of
-B in A. When A is the universal set one may simply refer to the
-complement of B to denote all things not in B. \item The complement of a set A
-is denoted as $A^c$ or $A^{c}$.
-\end{itemize}
 
 
 
 %--------------------------------------------------------%
-\subsubsection*{Complements}
+\subsubsection*{Relative Difference}
 \begin{itemize}
-
-\item The Complements of A and B are the elements of the universal set not contained in A and B.
-
-\item The complements are denoted $\boldsymbol{A}^{c}$ and $\boldsymbol{B}^{c}$
-\[ \boldsymbol{A}^{c} = \{4,6,8,9\}, \]
-\[ \boldsymbol{B}^{c} = \{1,3,5,7,9\}, \]
+\item $ A \oplus B$
 \end{itemize}
 
 
+\subsection{Set difference}
+
+The difference X minus Y, written X-Y or $X\|Y$, contains all those elements in X that are not also in Y. For example, E-A contains all integers greater than 3. 
+A-B is just A; red, green and blue were not elements of A, so no difference is made by excluding them.
+
+
+\subsubsection*{Set Difference}
+\begin{itemize}
+
+\item The Set Difference of A with regard to B are list of elements of A not contained by B.
+
+\item The complements are denoted $\mathcal{A-B}$ and $\mathcal{B-A}$
+\[ \mathcal{A-B} = \{1,3,5,7\}, \]
+
+\[ \mathcal{B-A} = \{4,6,8\}, \]
+\end{itemize}
+
 %=========================================%
-\subsection{Complement of a Set}
-The complement of a set A (denoted by $A^{c}$) is the set of elements which are not in set A. Hence, $A^{c}={x|x \notin A}$.
-More specifically, $A^{c}=(U-A)$ where $U$ is a universal set which contains all objects.
-
-\subsection{Example} - If A={x|x belongstosetofoddintegers}A={x|x belongstosetofoddintegers} then $A^{c}={y|y \mbox{does not belong toset ofodd integers}}$
-
-Complement Set
+\subsection{Set Difference/ Relative Complement}
+The set difference of sets A and B (denoted by $A–B$) is the set of elements which are only in A but not in B. Hence, $A-B={x|x \in A AND x \notin B}$.
+Example: If $A={10,11,12,13}$ and $B={13,14,15}$, then $(A-B)={10,11,12}$ and $(B-A)={14,15}$. Here, we can see (A-B)?(B-A)(A-B)?(B-A) Set Difference
+%===============================%
 
 
-
-
-
-
-\section*{Complement of a Set}
-%(2.3.1) 
-Consider the universal set $U$ such that
-\[U=\{2,4,6,8,10,12,15\} \]
-For each of the sets $A$,$B$,$C$ and $D$, specify the complement sets.
-{
-
-\begin{center}
-\begin{tabular}{|c|c|}
-\hline
-Set &\phantom{sp} Complement \phantom{sp}\\
-\hline \phantom{sp} $A=\{4,6,12,15\}$ \phantom{sp} &
-$A^{c}=\{2,8,10\}$ \\ \hline $B=\{4,8,10,15\}$ & \\ \hline
-$C=\{2,6,12,15\}$ & \\ \hline $D=\{8,10,15\}$ & \\ \hline
-
-\end{tabular}
-\end{center}
-}
 
 \end{document}
-
-
- 
-
-
